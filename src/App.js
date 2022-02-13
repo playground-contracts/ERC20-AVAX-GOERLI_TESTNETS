@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import CreateERC20 from './artifacts/contracts/CreateERC20.sol/CreateERC20.json'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { Container, Row, Col } from 'react-bootstrap'
+import Faucet from './components/Faucet.js'
+import TokenSend from './components/TokenSend.js'
 
 function App() {
+
+  const Token = CreateERC20;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+    <Row className="justify-content-md-center">
+      <Col>
+        <Faucet  tokenContract={Token}/>
+      </Col>
+      <Col>
+      <TokenSend tokenContract={Token}/>
+      </Col>
+    </Row>
+    </Container>
+</div>
   );
 }
 
