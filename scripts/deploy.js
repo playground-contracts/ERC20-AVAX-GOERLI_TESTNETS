@@ -10,7 +10,7 @@ async function main() {
   );
 
   const SandraToken = await hre.ethers.getContractFactory("TESTNFT");
-  const jandrasToken = await SandraToken.deploy("TESTNFT", "FLO");
+  const jandrasToken = await SandraToken.deploy();
 
   await jandrasToken.deployed();
 
