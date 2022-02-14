@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 
 contract TESTNFT is ERC721URIStorage, ERC721Enumerable, Ownable {
-    constructor() ERC721("TESTNFT", "FLO") {}
+    constructor(string memory name, string memory symbol) ERC721("TESTNFT", "FLO") {}
 
     mapping (address => bool) isMinter;
 

@@ -554,8 +554,8 @@
       ]
     },
     "/Users/floriansueur/Desktop/personnel/react-token-faucet/contracts/TESTNFT.sol": {
-      "lastModificationDate": 1644826409040,
-      "contentHash": "1a7fa9e5ba10cec865bab578a8f0f3e6",
+      "lastModificationDate": 1644826806271,
+      "contentHash": "9fd26f8a7e123a9db03e370b898bd2e9",
       "sourceName": "contracts/TESTNFT.sol",
       "solcConfig": {
         "version": "0.8.4",
