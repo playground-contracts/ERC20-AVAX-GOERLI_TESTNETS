@@ -9,12 +9,12 @@ async function main() {
     deployer.address
   );
 
-  const SandraToken = await hre.ethers.getContractFactory("CreateERC20");
-  const jandrasToken = await SandraToken.deploy("CreateERC20", "JANDRAS");
+  const SandraToken = await hre.ethers.getContractFactory("TESTNFT");
+  const jandrasToken = await SandraToken.deploy("TESTNFT", "FLO");
 
   await jandrasToken.deployed();
 
-  console.log("Token deployed to:", jandrasToken.address);
+  console.log("ERC721 deployed to:", jandrasToken.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
