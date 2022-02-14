@@ -478,10 +478,10 @@
         "IERC165"
       ]
     },
-    "/Users/floriansueur/Desktop/personnel/react-token-faucet/contracts/Landies.sol": {
-      "lastModificationDate": 1644787763956,
-      "contentHash": "6fc2ac5ea5a03fde1115da229aebc804",
-      "sourceName": "contracts/Landies.sol",
+    "/Users/floriansueur/Desktop/personnel/react-token-faucet/contracts/LandiesNFT.sol": {
+      "lastModificationDate": 1644824917756,
+      "contentHash": "2c714babe5afaa08d6f87c0a98861085",
+      "sourceName": "contracts/LandiesNFT.sol",
       "solcConfig": {
         "version": "0.8.4",
         "settings": {
@@ -512,7 +512,7 @@
         "^0.8.4"
       ],
       "artifacts": [
-        "Landies"
+        "LandiesNFT"
       ]
     }
   }
